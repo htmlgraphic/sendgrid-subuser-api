@@ -1,5 +1,5 @@
 <?php
-namespace SendGrid;
+use SubUser\HttpMethod;
 use \InvalidArgumentException;
 
 /**

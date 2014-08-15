@@ -1,7 +1,6 @@
 <?php
-namespace SendGrid;
+namespace SubUser;
 use \LogicException, \InvalidArgumentException, \RuntimeException;
-require_once 'SubUser.php';
 
 /**
  * Top-level API class for SendGrid.
