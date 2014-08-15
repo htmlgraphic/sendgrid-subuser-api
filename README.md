@@ -1,6 +1,8 @@
 PHP SendGrid Subuser API
 ========================
 
+This repo has been motified to work better with Composer for package management.
+
 This PHP library makes it easy to work with the `SendGrid Subuser API`_.
 It was made to scratch our own itch, and as such it currently only
 implements the parts of the API that we needed. Please feel free to
@@ -13,9 +15,9 @@ Basic Usage
 
 ::
 
-    $sendgrid = new SendGrid\Api("my_username", "my_password");
+    $sendgrid = new SubUser\Api("my_username", "my_password");
     // Create a new sub user
-    $user = new SendGrid\SubUser("wanted_username", "password",
+    $user = new SubUser\SubUser("wanted_username", "password",
             "email@example.com", "email.domain.example.com");
     $sendgrid->addSubUser($user);
     // Retrieve existing sub user

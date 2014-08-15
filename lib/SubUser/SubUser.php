@@ -1,5 +1,5 @@
 <?php
-use SubUser\HttpMethod;
+use SubUser\Api;
 use \InvalidArgumentException;
 
 /**
